@@ -1,0 +1,107 @@
+body{
+	background-image: url('Images/home2.jpeg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+/*.bar-contain{
+	float: left;
+	position: absolute;
+}
+
+.contact-text{
+	margin:30% 500%;
+}
+.contact-text a{
+	text-align: center;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: ;
+	font-family: 'Do Hyeon', sans-serif;
+	text-decoration: none;
+	cursor: pointer;
+}
+.contact-text a:hover{
+	background-color: #3d0603;
+	padding: 0px;*/
+/*}
+.logo{
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 190%
+}
+.logo-text{
+	position: absolute;
+	margin: 15% 30%;
+	color: white;
+	font-size: 30vh;
+	font-family: 'Chewy', cursive;
+}
+.logo-text:hover{
+	color: #2c047a;
+}*/
+
+/*.btn{
+	position: absolute;
+	margin: 40% 43%;
+}
+.btn button{
+	border:none;
+	width: 200%;
+	height: 50px; 
+	text-align: center;
+	font-size: 4vh;
+	font-weight: bold;
+	background-color: #f4b942;
+	border-radius: 20px;
+	color: #000000;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	animation-name: btn-anime;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+.btn button:hover{
+	color: #ffffff;
+}
+
+@keyframes btn-anime{
+	0%{background-color:#f4b942;}
+	20%{background-color:#f4e541;}
+	40%{background-color:#a6f441;}
+	60%{background-color:#41f458;}
+	90%{background-color:#41f4c4;}
+	100%{background-color:#f4b942;}
+
+}
+*/
+
+h1 {
+	font-family: "Raleway", sans-serif;
+}
+body, html {
+	height: 100%;
+}
+.bgimg {
+    background-image: url('Images/home2.jpeg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.w3-large{
+	font-size: 100px;
+	font-weight: bold;
+	color:#0b1119;
+	background-color:#ffffff;
+	width: 100%;
+}
+
+
+
