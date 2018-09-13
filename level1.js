@@ -1,3 +1,6 @@
+let inputField = document.getElementById("inputField").value;
+let toast = document.getElementById('toast');
+
 function palindrome(str) { 
 
   let re = /[\W_]/g; 
@@ -23,38 +26,37 @@ function showToast(text) {
       label.className = label.className.replace("show", ""); }, 3000);
 }
 // 
-function add_element_to_array()
-{
-  if(document.getElementById("text1").value) {
- store.push(document.getElementById("text1").value);
+function playBtn(){
+  if(inputField){
+ store.push(inputField);
     // 
  showToast(palindrome(store[store.length - 1]));
 //    immediately the code runs and the toast shows, it automatically removes.Edge cases.
-  document.getElementById("text1").value = "";
+  inputField = "";
   }else{
-    document.getElementById("text1").value ="";
+    inputField ="";
   return (showToast(" Please, type in a word or phrase"))
   }
 }
 
 // archive button
   
-function display_array()
-{
-//   
-  let slicedStore, reversedStore;
-  if (store.length > 5) {
-    slicedStore = store.slice(0)
-    reversedStore = slicedStore.reverse().slice(0, 5)//picks only the first five in the array.
-}else{
-       slicedStore = store.slice(0)
-    reversedStore = slicedStore.reverse()
-    }
-//   
-   let e = "<hr/>";
-   for (let y = 0; y < reversedStore.length; y++)
-   {
-     e += reversedStore[y] + "<br/>";
-   }
-   document.getElementById("Result").innerHTML = e;
-}
+// function display_array()
+// {
+// //   
+//   let slicedStore, reversedStore;
+//   if (store.length > 5) {
+//     slicedStore = store.slice(0)
+//     reversedStore = slicedStore.reverse().slice(0, 5)//picks only the first five in the array.
+// }else{
+//        slicedStore = store.slice(0)
+//     reversedStore = slicedStore.reverse()
+//     }
+// //   
+//    let e = "<hr/>";
+//    for (let y = 0; y < reversedStore.length; y++)
+//    {
+//      e += reversedStore[y] + "<br/>";
+//    }
+//    document.getElementById("Result").innerHTML = e;
+// }
